@@ -8,7 +8,9 @@
     <title>PHP DISCHI</title>
 </head>
 <body>
-    
-    <p class="ciao">ciao</p>
+    <?php include __DIR__ . '../data/data.php' ?>
+  <main>
+     
+  </main>
 </body>
 </html>
