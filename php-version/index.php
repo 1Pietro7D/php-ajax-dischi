@@ -8,9 +8,13 @@
     <title>PHP DISCHI</title>
 </head>
 <body>
-    <?php include __DIR__ . '../data/data.php' ?>
+    <?php include __DIR__ . '/../data/data.php'; //alla faccia che dir ti semplificava la vita XD beh basta ti ricordi che dir non ha "/" davanti
+    // var_dump($disks) ?>
+
   <main>
-     
+    <?php foreach($disks["response"] as $disk) { ?>
+        <p> <?= $disk['title'] ?></p>
+    <?php } ?>
   </main>
 </body>
 </html>
