@@ -13,7 +13,7 @@
 
   <main>
     <?php foreach($disks["response"] as $disk) { ?>
-        <p> <?= $disk['title'] ?></p>
+        <p><?= $disk['title'] ?></p>
     <?php } ?>
   </main>
 </body>
