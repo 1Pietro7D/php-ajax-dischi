@@ -69,9 +69,11 @@ $disks = [
    ]
 ]];
   
-  $vueDisks = $disks;
+//   $vueDisks = $disks;
 
-  header("Content-Type: application/json");
+//   header("Content-Type: application/json");
 
-  echo json_encode($vueDisks);
+//   echo json_encode($vueDisks);
+
+// NON SI PUÒ FARE
 ?>
