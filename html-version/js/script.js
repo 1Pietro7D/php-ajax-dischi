@@ -1,5 +1,3 @@
-console.log("JS OK!");
-
 const app = new Vue({
   el: "#app",
   data() {
@@ -13,7 +11,7 @@ const app = new Vue({
   methods: {
     getAlbums() {
       axios
-        .get("/php-ajax-dischi/data/data.php")
+        .get("/php-ajax-dischi/php/getAlbum.php")
         .then(({ data }) => {
           if (data.success === true) {
             this.albums = data.response;
