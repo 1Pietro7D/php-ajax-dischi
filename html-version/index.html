@@ -22,7 +22,9 @@
   </head>
   <body>
     <div id="app">
-      <main></main>
+      <main>
+        <p v-for="album in albums">{{ album.title }}</p>
+      </main>
     </div>
   </body>
 </html>
